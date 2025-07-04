@@ -128,7 +128,7 @@ Partial Class Form1
         Guna2Button4.Font = New Font("Segoe UI", 9F)
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Image = My.Resources.Resources.icons8_meta_50
-        Guna2Button4.ImageSize = New Size(50, 50)
+        Guna2Button4.ImageSize = New Size(30, 30)
         Guna2Button4.Location = New Point(331, 582)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.Padding = New Padding(5)
@@ -150,7 +150,7 @@ Partial Class Form1
         Guna2Button3.Font = New Font("Segoe UI", 9F)
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Image = My.Resources.Resources.icons8_google_30__1_
-        Guna2Button3.ImageSize = New Size(50, 50)
+        Guna2Button3.ImageSize = New Size(30, 30)
         Guna2Button3.Location = New Point(183, 582)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.Padding = New Padding(5)
@@ -172,7 +172,7 @@ Partial Class Form1
         Guna2Button2.Font = New Font("Segoe UI", 9F)
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Image = My.Resources.Resources.icons8_apple_50
-        Guna2Button2.ImageSize = New Size(50, 50)
+        Guna2Button2.ImageSize = New Size(30, 30)
         Guna2Button2.Location = New Point(35, 582)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.Padding = New Padding(5)

@@ -1,9 +1,14 @@
-﻿Public Class Dashboard
-    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+﻿Imports Guna.UI2.WinForms
+Imports MySql.Data.MySqlClient
 
+Public Class Dashboard
+    Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LoadUserControl(New Overview())
     End Sub
 
-    Private Sub Guna2HtmlLabel4_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel4.Click
-
+    Private Sub LoadUserControl(control As UserControl)
+        MainPanel.Controls.Clear()
+        control.Dock = DockStyle.Fill
+        MainPanel.Controls.Add(control)
     End Sub
 End Class
