@@ -46,11 +46,11 @@ Partial Class Dashboard
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        supportbtn = New Guna.UI2.WinForms.Guna2Button()
+        settingbtn = New Guna.UI2.WinForms.Guna2Button()
+        loanbtn = New Guna.UI2.WinForms.Guna2Button()
+        transactionbtn = New Guna.UI2.WinForms.Guna2Button()
+        accountbtn = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -66,11 +66,11 @@ Partial Class Dashboard
         Guna2Panel1.Controls.Add(Guna2HtmlLabel3)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel4)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.Controls.Add(Guna2Button5)
-        Guna2Panel1.Controls.Add(Guna2Button6)
-        Guna2Panel1.Controls.Add(Guna2Button4)
-        Guna2Panel1.Controls.Add(Guna2Button3)
-        Guna2Panel1.Controls.Add(Guna2Button2)
+        Guna2Panel1.Controls.Add(supportbtn)
+        Guna2Panel1.Controls.Add(settingbtn)
+        Guna2Panel1.Controls.Add(loanbtn)
+        Guna2Panel1.Controls.Add(transactionbtn)
+        Guna2Panel1.Controls.Add(accountbtn)
         Guna2Panel1.Controls.Add(Guna2Button1)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel2)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
@@ -116,115 +116,115 @@ Partial Class Dashboard
         Guna2PictureBox2.TabIndex = 9
         Guna2PictureBox2.TabStop = False
         ' 
-        ' Guna2Button5
+        ' supportbtn
         ' 
-        Guna2Button5.BorderRadius = 10
-        Guna2Button5.CustomizableEdges = CustomizableEdges3
-        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button5.FillColor = Color.Transparent
-        Guna2Button5.Font = New Font("Segoe UI", 11.3F)
-        Guna2Button5.ForeColor = Color.White
-        Guna2Button5.Image = My.Resources.Resources.icons8_support_501
-        Guna2Button5.ImageAlign = HorizontalAlignment.Left
-        Guna2Button5.ImageSize = New Size(25, 25)
-        Guna2Button5.Location = New Point(19, 656)
-        Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button5.Size = New Size(243, 33)
-        Guna2Button5.TabIndex = 8
-        Guna2Button5.Text = "Support"
-        Guna2Button5.TextAlign = HorizontalAlignment.Left
+        supportbtn.BorderRadius = 10
+        supportbtn.CustomizableEdges = CustomizableEdges3
+        supportbtn.DisabledState.BorderColor = Color.DarkGray
+        supportbtn.DisabledState.CustomBorderColor = Color.DarkGray
+        supportbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        supportbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        supportbtn.FillColor = Color.Transparent
+        supportbtn.Font = New Font("Segoe UI", 11.3F)
+        supportbtn.ForeColor = Color.White
+        supportbtn.Image = My.Resources.Resources.icons8_support_501
+        supportbtn.ImageAlign = HorizontalAlignment.Left
+        supportbtn.ImageSize = New Size(25, 25)
+        supportbtn.Location = New Point(19, 656)
+        supportbtn.Name = "supportbtn"
+        supportbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        supportbtn.Size = New Size(243, 33)
+        supportbtn.TabIndex = 8
+        supportbtn.Text = "Support"
+        supportbtn.TextAlign = HorizontalAlignment.Left
         ' 
-        ' Guna2Button6
+        ' settingbtn
         ' 
-        Guna2Button6.BorderRadius = 10
-        Guna2Button6.CustomizableEdges = CustomizableEdges5
-        Guna2Button6.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button6.FillColor = Color.Transparent
-        Guna2Button6.Font = New Font("Segoe UI", 11.3F)
-        Guna2Button6.ForeColor = Color.White
-        Guna2Button6.Image = My.Resources.Resources.icons8_settings_64
-        Guna2Button6.ImageAlign = HorizontalAlignment.Left
-        Guna2Button6.ImageSize = New Size(25, 25)
-        Guna2Button6.Location = New Point(19, 602)
-        Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2Button6.Size = New Size(243, 33)
-        Guna2Button6.TabIndex = 7
-        Guna2Button6.Text = "Settings"
-        Guna2Button6.TextAlign = HorizontalAlignment.Left
+        settingbtn.BorderRadius = 10
+        settingbtn.CustomizableEdges = CustomizableEdges5
+        settingbtn.DisabledState.BorderColor = Color.DarkGray
+        settingbtn.DisabledState.CustomBorderColor = Color.DarkGray
+        settingbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        settingbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        settingbtn.FillColor = Color.Transparent
+        settingbtn.Font = New Font("Segoe UI", 11.3F)
+        settingbtn.ForeColor = Color.White
+        settingbtn.Image = My.Resources.Resources.icons8_settings_64
+        settingbtn.ImageAlign = HorizontalAlignment.Left
+        settingbtn.ImageSize = New Size(25, 25)
+        settingbtn.Location = New Point(19, 602)
+        settingbtn.Name = "settingbtn"
+        settingbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        settingbtn.Size = New Size(243, 33)
+        settingbtn.TabIndex = 7
+        settingbtn.Text = "Settings"
+        settingbtn.TextAlign = HorizontalAlignment.Left
         ' 
-        ' Guna2Button4
+        ' loanbtn
         ' 
-        Guna2Button4.BorderRadius = 10
-        Guna2Button4.CustomizableEdges = CustomizableEdges7
-        Guna2Button4.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button4.FillColor = Color.Transparent
-        Guna2Button4.Font = New Font("Segoe UI", 11.3F)
-        Guna2Button4.ForeColor = Color.White
-        Guna2Button4.Image = My.Resources.Resources.icons8_bank_building_50
-        Guna2Button4.ImageAlign = HorizontalAlignment.Left
-        Guna2Button4.ImageSize = New Size(25, 25)
-        Guna2Button4.Location = New Point(19, 276)
-        Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2Button4.Size = New Size(243, 33)
-        Guna2Button4.TabIndex = 6
-        Guna2Button4.Text = "Loans"
-        Guna2Button4.TextAlign = HorizontalAlignment.Left
+        loanbtn.BorderRadius = 10
+        loanbtn.CustomizableEdges = CustomizableEdges7
+        loanbtn.DisabledState.BorderColor = Color.DarkGray
+        loanbtn.DisabledState.CustomBorderColor = Color.DarkGray
+        loanbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        loanbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        loanbtn.FillColor = Color.Transparent
+        loanbtn.Font = New Font("Segoe UI", 11.3F)
+        loanbtn.ForeColor = Color.White
+        loanbtn.Image = My.Resources.Resources.icons8_bank_building_50
+        loanbtn.ImageAlign = HorizontalAlignment.Left
+        loanbtn.ImageSize = New Size(25, 25)
+        loanbtn.Location = New Point(19, 276)
+        loanbtn.Name = "loanbtn"
+        loanbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        loanbtn.Size = New Size(243, 33)
+        loanbtn.TabIndex = 6
+        loanbtn.Text = "Loans"
+        loanbtn.TextAlign = HorizontalAlignment.Left
         ' 
-        ' Guna2Button3
+        ' transactionbtn
         ' 
-        Guna2Button3.BorderRadius = 10
-        Guna2Button3.CustomizableEdges = CustomizableEdges9
-        Guna2Button3.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button3.FillColor = Color.Transparent
-        Guna2Button3.Font = New Font("Segoe UI", 11.3F)
-        Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Image = My.Resources.Resources.icons8_transfer_50
-        Guna2Button3.ImageAlign = HorizontalAlignment.Left
-        Guna2Button3.ImageSize = New Size(25, 25)
-        Guna2Button3.Location = New Point(19, 222)
-        Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Button3.Size = New Size(243, 33)
-        Guna2Button3.TabIndex = 5
-        Guna2Button3.Text = "Transactions"
-        Guna2Button3.TextAlign = HorizontalAlignment.Left
+        transactionbtn.BorderRadius = 10
+        transactionbtn.CustomizableEdges = CustomizableEdges9
+        transactionbtn.DisabledState.BorderColor = Color.DarkGray
+        transactionbtn.DisabledState.CustomBorderColor = Color.DarkGray
+        transactionbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        transactionbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        transactionbtn.FillColor = Color.Transparent
+        transactionbtn.Font = New Font("Segoe UI", 11.3F)
+        transactionbtn.ForeColor = Color.White
+        transactionbtn.Image = My.Resources.Resources.icons8_transfer_50
+        transactionbtn.ImageAlign = HorizontalAlignment.Left
+        transactionbtn.ImageSize = New Size(25, 25)
+        transactionbtn.Location = New Point(19, 222)
+        transactionbtn.Name = "transactionbtn"
+        transactionbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        transactionbtn.Size = New Size(243, 33)
+        transactionbtn.TabIndex = 5
+        transactionbtn.Text = "Transactions"
+        transactionbtn.TextAlign = HorizontalAlignment.Left
         ' 
-        ' Guna2Button2
+        ' accountbtn
         ' 
-        Guna2Button2.BorderRadius = 10
-        Guna2Button2.CustomizableEdges = CustomizableEdges11
-        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.FillColor = Color.Transparent
-        Guna2Button2.Font = New Font("Segoe UI", 11.3F)
-        Guna2Button2.ForeColor = Color.White
-        Guna2Button2.Image = My.Resources.Resources.icons8_database_50
-        Guna2Button2.ImageAlign = HorizontalAlignment.Left
-        Guna2Button2.ImageSize = New Size(25, 25)
-        Guna2Button2.Location = New Point(19, 168)
-        Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2Button2.Size = New Size(243, 33)
-        Guna2Button2.TabIndex = 4
-        Guna2Button2.Text = "Accounts"
-        Guna2Button2.TextAlign = HorizontalAlignment.Left
+        accountbtn.BorderRadius = 10
+        accountbtn.CustomizableEdges = CustomizableEdges11
+        accountbtn.DisabledState.BorderColor = Color.DarkGray
+        accountbtn.DisabledState.CustomBorderColor = Color.DarkGray
+        accountbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        accountbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        accountbtn.FillColor = Color.Transparent
+        accountbtn.Font = New Font("Segoe UI", 11.3F)
+        accountbtn.ForeColor = Color.White
+        accountbtn.Image = My.Resources.Resources.icons8_database_50
+        accountbtn.ImageAlign = HorizontalAlignment.Left
+        accountbtn.ImageSize = New Size(25, 25)
+        accountbtn.Location = New Point(19, 168)
+        accountbtn.Name = "accountbtn"
+        accountbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        accountbtn.Size = New Size(243, 33)
+        accountbtn.TabIndex = 4
+        accountbtn.Text = "Accounts"
+        accountbtn.TextAlign = HorizontalAlignment.Left
         ' 
         ' Guna2Button1
         ' 
@@ -285,12 +285,13 @@ Partial Class Dashboard
         ' MainPanel
         ' 
         MainPanel.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        MainPanel.BackColor = Color.FromArgb(CByte(10), CByte(10), CByte(10))
         MainPanel.BorderRadius = 30
         MainPanel.CustomizableEdges = CustomizableEdges19
-        MainPanel.Location = New Point(281, 10)
+        MainPanel.Location = New Point(284, 60)
         MainPanel.Name = "MainPanel"
         MainPanel.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        MainPanel.Size = New Size(1605, 1006)
+        MainPanel.Size = New Size(1610, 957)
         MainPanel.TabIndex = 1
         ' 
         ' Dashboard
@@ -316,11 +317,11 @@ Partial Class Dashboard
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents accountbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents supportbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents settingbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents loanbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents transactionbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
