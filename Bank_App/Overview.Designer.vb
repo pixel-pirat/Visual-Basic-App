@@ -1,0 +1,369 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Overview
+    Inherits System.Windows.Forms.UserControl
+
+    'UserControl overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim ChartFont1 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont2 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont3 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont4 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid1 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick1 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont5 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid2 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick2 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont6 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid3 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim PointLabel1 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
+        Dim ChartFont7 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Tick3 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont8 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2CustomGradientPanel2 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2CustomGradientPanel3 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel8 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel9 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        GunaSplineAreaDataset1 = New Guna.Charts.WinForms.GunaSplineAreaDataset()
+        GunaChart1 = New Guna.Charts.WinForms.GunaChart()
+        Guna2CustomGradientPanel1.SuspendLayout()
+        Guna2CustomGradientPanel2.SuspendLayout()
+        Guna2CustomGradientPanel3.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' Guna2CustomGradientPanel1
+        ' 
+        Guna2CustomGradientPanel1.BorderColor = Color.White
+        Guna2CustomGradientPanel1.BorderRadius = 30
+        Guna2CustomGradientPanel1.BorderThickness = 1
+        Guna2CustomGradientPanel1.Controls.Add(Guna2Button1)
+        Guna2CustomGradientPanel1.Controls.Add(Guna2HtmlLabel3)
+        Guna2CustomGradientPanel1.Controls.Add(Guna2HtmlLabel2)
+        Guna2CustomGradientPanel1.Controls.Add(Guna2HtmlLabel1)
+        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges3
+        Guna2CustomGradientPanel1.FillColor = Color.Black
+        Guna2CustomGradientPanel1.FillColor2 = Color.Gray
+        Guna2CustomGradientPanel1.FillColor3 = Color.FromArgb(CByte(20), CByte(20), CByte(20))
+        Guna2CustomGradientPanel1.FillColor4 = Color.FromArgb(CByte(10), CByte(10), CByte(10))
+        Guna2CustomGradientPanel1.Location = New Point(22, 115)
+        Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
+        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2CustomGradientPanel1.Size = New Size(466, 274)
+        Guna2CustomGradientPanel1.TabIndex = 0
+        ' 
+        ' Guna2Button1
+        ' 
+        Guna2Button1.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Guna2Button1.BorderRadius = 10
+        Guna2Button1.CustomizableEdges = CustomizableEdges1
+        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.FillColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Guna2Button1.Font = New Font("Segoe UI", 9F)
+        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.Image = My.Resources.Resources.icons8_increase_24__1_1
+        Guna2Button1.Location = New Point(338, 29)
+        Guna2Button1.Name = "Guna2Button1"
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button1.Size = New Size(99, 32)
+        Guna2Button1.TabIndex = 3
+        Guna2Button1.Text = "+12.3%"
+        ' 
+        ' Guna2HtmlLabel3
+        ' 
+        Guna2HtmlLabel3.BackColor = Color.Transparent
+        Guna2HtmlLabel3.ForeColor = SystemColors.ButtonFace
+        Guna2HtmlLabel3.Location = New Point(26, 187)
+        Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
+        Guna2HtmlLabel3.Size = New Size(190, 27)
+        Guna2HtmlLabel3.TabIndex = 2
+        Guna2HtmlLabel3.Text = "Trending up this month"
+        ' 
+        ' Guna2HtmlLabel2
+        ' 
+        Guna2HtmlLabel2.BackColor = Color.Transparent
+        Guna2HtmlLabel2.Font = New Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel2.ForeColor = Color.White
+        Guna2HtmlLabel2.Location = New Point(24, 59)
+        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
+        Guna2HtmlLabel2.Size = New Size(243, 56)
+        Guna2HtmlLabel2.TabIndex = 1
+        Guna2HtmlLabel2.Text = "$ 300,000.00"
+        ' 
+        ' Guna2HtmlLabel1
+        ' 
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.ForeColor = SystemColors.AppWorkspace
+        Guna2HtmlLabel1.Location = New Point(26, 29)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(114, 27)
+        Guna2HtmlLabel1.TabIndex = 0
+        Guna2HtmlLabel1.Text = "Total Revenue"
+        ' 
+        ' Guna2CustomGradientPanel2
+        ' 
+        Guna2CustomGradientPanel2.BorderColor = Color.White
+        Guna2CustomGradientPanel2.BorderRadius = 30
+        Guna2CustomGradientPanel2.BorderThickness = 1
+        Guna2CustomGradientPanel2.Controls.Add(Guna2Button2)
+        Guna2CustomGradientPanel2.Controls.Add(Guna2HtmlLabel4)
+        Guna2CustomGradientPanel2.Controls.Add(Guna2HtmlLabel5)
+        Guna2CustomGradientPanel2.Controls.Add(Guna2HtmlLabel6)
+        Guna2CustomGradientPanel2.CustomizableEdges = CustomizableEdges7
+        Guna2CustomGradientPanel2.FillColor = Color.Black
+        Guna2CustomGradientPanel2.FillColor2 = Color.Gray
+        Guna2CustomGradientPanel2.FillColor3 = Color.FromArgb(CByte(20), CByte(20), CByte(20))
+        Guna2CustomGradientPanel2.FillColor4 = Color.FromArgb(CByte(10), CByte(10), CByte(10))
+        Guna2CustomGradientPanel2.Location = New Point(530, 115)
+        Guna2CustomGradientPanel2.Name = "Guna2CustomGradientPanel2"
+        Guna2CustomGradientPanel2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2CustomGradientPanel2.Size = New Size(466, 274)
+        Guna2CustomGradientPanel2.TabIndex = 4
+        ' 
+        ' Guna2Button2
+        ' 
+        Guna2Button2.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Guna2Button2.BorderRadius = 10
+        Guna2Button2.CustomizableEdges = CustomizableEdges5
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.FillColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Guna2Button2.Font = New Font("Segoe UI", 9F)
+        Guna2Button2.ForeColor = Color.White
+        Guna2Button2.Image = My.Resources.Resources.icons8_increase_24__1_1
+        Guna2Button2.Location = New Point(338, 29)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Button2.Size = New Size(99, 32)
+        Guna2Button2.TabIndex = 3
+        Guna2Button2.Text = "+12.3%"
+        ' 
+        ' Guna2HtmlLabel4
+        ' 
+        Guna2HtmlLabel4.BackColor = Color.Transparent
+        Guna2HtmlLabel4.ForeColor = SystemColors.ButtonFace
+        Guna2HtmlLabel4.Location = New Point(26, 187)
+        Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
+        Guna2HtmlLabel4.Size = New Size(190, 27)
+        Guna2HtmlLabel4.TabIndex = 2
+        Guna2HtmlLabel4.Text = "Trending up this month"
+        ' 
+        ' Guna2HtmlLabel5
+        ' 
+        Guna2HtmlLabel5.BackColor = Color.Transparent
+        Guna2HtmlLabel5.Font = New Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel5.ForeColor = Color.White
+        Guna2HtmlLabel5.Location = New Point(24, 59)
+        Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
+        Guna2HtmlLabel5.Size = New Size(95, 56)
+        Guna2HtmlLabel5.TabIndex = 1
+        Guna2HtmlLabel5.Text = "2345"
+        ' 
+        ' Guna2HtmlLabel6
+        ' 
+        Guna2HtmlLabel6.BackColor = Color.Transparent
+        Guna2HtmlLabel6.ForeColor = SystemColors.AppWorkspace
+        Guna2HtmlLabel6.Location = New Point(26, 29)
+        Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
+        Guna2HtmlLabel6.Size = New Size(76, 27)
+        Guna2HtmlLabel6.TabIndex = 0
+        Guna2HtmlLabel6.Text = "Accounts"
+        ' 
+        ' Guna2CustomGradientPanel3
+        ' 
+        Guna2CustomGradientPanel3.BorderColor = Color.White
+        Guna2CustomGradientPanel3.BorderRadius = 30
+        Guna2CustomGradientPanel3.BorderThickness = 1
+        Guna2CustomGradientPanel3.Controls.Add(Guna2Button3)
+        Guna2CustomGradientPanel3.Controls.Add(Guna2HtmlLabel7)
+        Guna2CustomGradientPanel3.Controls.Add(Guna2HtmlLabel8)
+        Guna2CustomGradientPanel3.Controls.Add(Guna2HtmlLabel9)
+        Guna2CustomGradientPanel3.CustomizableEdges = CustomizableEdges11
+        Guna2CustomGradientPanel3.FillColor = Color.Black
+        Guna2CustomGradientPanel3.FillColor2 = Color.Gray
+        Guna2CustomGradientPanel3.FillColor3 = Color.FromArgb(CByte(20), CByte(20), CByte(20))
+        Guna2CustomGradientPanel3.FillColor4 = Color.FromArgb(CByte(10), CByte(10), CByte(10))
+        Guna2CustomGradientPanel3.Location = New Point(1038, 115)
+        Guna2CustomGradientPanel3.Name = "Guna2CustomGradientPanel3"
+        Guna2CustomGradientPanel3.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2CustomGradientPanel3.Size = New Size(466, 274)
+        Guna2CustomGradientPanel3.TabIndex = 4
+        ' 
+        ' Guna2Button3
+        ' 
+        Guna2Button3.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Guna2Button3.BorderRadius = 10
+        Guna2Button3.CustomizableEdges = CustomizableEdges9
+        Guna2Button3.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button3.FillColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        Guna2Button3.Font = New Font("Segoe UI", 9F)
+        Guna2Button3.ForeColor = Color.White
+        Guna2Button3.Image = My.Resources.Resources.icons8_increase_24__1_1
+        Guna2Button3.Location = New Point(338, 29)
+        Guna2Button3.Name = "Guna2Button3"
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Button3.Size = New Size(99, 32)
+        Guna2Button3.TabIndex = 3
+        Guna2Button3.Text = "+12.3%"
+        ' 
+        ' Guna2HtmlLabel7
+        ' 
+        Guna2HtmlLabel7.BackColor = Color.Transparent
+        Guna2HtmlLabel7.ForeColor = SystemColors.ButtonFace
+        Guna2HtmlLabel7.Location = New Point(26, 187)
+        Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
+        Guna2HtmlLabel7.Size = New Size(190, 27)
+        Guna2HtmlLabel7.TabIndex = 2
+        Guna2HtmlLabel7.Text = "Trending up this month"
+        ' 
+        ' Guna2HtmlLabel8
+        ' 
+        Guna2HtmlLabel8.BackColor = Color.Transparent
+        Guna2HtmlLabel8.Font = New Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel8.ForeColor = Color.White
+        Guna2HtmlLabel8.Location = New Point(24, 59)
+        Guna2HtmlLabel8.Name = "Guna2HtmlLabel8"
+        Guna2HtmlLabel8.Size = New Size(197, 56)
+        Guna2HtmlLabel8.TabIndex = 1
+        Guna2HtmlLabel8.Text = "$ 3,000.00"
+        ' 
+        ' Guna2HtmlLabel9
+        ' 
+        Guna2HtmlLabel9.BackColor = Color.Transparent
+        Guna2HtmlLabel9.ForeColor = SystemColors.AppWorkspace
+        Guna2HtmlLabel9.Location = New Point(26, 29)
+        Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
+        Guna2HtmlLabel9.Size = New Size(49, 27)
+        Guna2HtmlLabel9.TabIndex = 0
+        Guna2HtmlLabel9.Text = "Loans"
+        ' 
+        ' GunaSplineAreaDataset1
+        ' 
+        GunaSplineAreaDataset1.BorderColor = Color.Empty
+        GunaSplineAreaDataset1.FillColor = Color.Empty
+        GunaSplineAreaDataset1.Label = "SplineArea1"
+        ' 
+        ' GunaChart1
+        ' 
+        GunaChart1.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        ChartFont1.FontName = "Arial"
+        GunaChart1.Legend.LabelFont = ChartFont1
+        GunaChart1.Location = New Point(22, 483)
+        GunaChart1.Name = "GunaChart1"
+        GunaChart1.Size = New Size(1482, 494)
+        GunaChart1.TabIndex = 5
+        ChartFont2.FontName = "Arial"
+        ChartFont2.Size = 20
+        ChartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        GunaChart1.Title.Font = ChartFont2
+        GunaChart1.Title.ForeColor = Color.White
+        GunaChart1.Title.Text = "Account "
+        ChartFont3.FontName = "Arial"
+        GunaChart1.Tooltips.BodyFont = ChartFont3
+        ChartFont4.FontName = "Arial"
+        ChartFont4.Size = 9
+        ChartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        GunaChart1.Tooltips.TitleFont = ChartFont4
+        GunaChart1.XAxes.Display = False
+        GunaChart1.XAxes.GridLines = Grid1
+        ChartFont5.FontName = "Arial"
+        Tick1.Font = ChartFont5
+        GunaChart1.XAxes.Ticks = Tick1
+        GunaChart1.YAxes.GridLines = Grid2
+        ChartFont6.FontName = "Arial"
+        Tick2.Font = ChartFont6
+        GunaChart1.YAxes.Ticks = Tick2
+        GunaChart1.ZAxes.GridLines = Grid3
+        ChartFont7.FontName = "Arial"
+        PointLabel1.Font = ChartFont7
+        GunaChart1.ZAxes.PointLabels = PointLabel1
+        ChartFont8.FontName = "Arial"
+        Tick3.Font = ChartFont8
+        GunaChart1.ZAxes.Ticks = Tick3
+        ' 
+        ' UserControl1
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(10), CByte(10), CByte(10))
+        Controls.Add(GunaChart1)
+        Controls.Add(Guna2CustomGradientPanel3)
+        Controls.Add(Guna2CustomGradientPanel2)
+        Controls.Add(Guna2CustomGradientPanel1)
+        Name = "UserControl1"
+        Size = New Size(1527, 1006)
+        Guna2CustomGradientPanel1.ResumeLayout(False)
+        Guna2CustomGradientPanel1.PerformLayout()
+        Guna2CustomGradientPanel2.ResumeLayout(False)
+        Guna2CustomGradientPanel2.PerformLayout()
+        Guna2CustomGradientPanel3.ResumeLayout(False)
+        Guna2CustomGradientPanel3.PerformLayout()
+        ResumeLayout(False)
+    End Sub
+
+    Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
+    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2CustomGradientPanel2 As Guna.UI2.WinForms.Guna2CustomGradientPanel
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2CustomGradientPanel3 As Guna.UI2.WinForms.Guna2CustomGradientPanel
+    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents GunaSplineAreaDataset1 As Guna.Charts.WinForms.GunaSplineAreaDataset
+    Friend WithEvents GunaChart1 As Guna.Charts.WinForms.GunaChart
+
+End Class
