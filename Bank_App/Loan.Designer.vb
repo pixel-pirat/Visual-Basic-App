@@ -24,35 +24,35 @@ Partial Class Loan
     Private Sub InitializeComponent()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        LoanTable = New Guna.UI2.WinForms.Guna2DataGridView()
-        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        btnApplyLoan = New Guna.UI2.WinForms.Guna2Button()
+        txtLoanTerm = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        btnSubmit = New Guna.UI2.WinForms.Guna2Button()
         txtLoanAmount = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         txtAccountNumber = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel8 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        txtLoanTerm = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        LoanTable = New Guna.UI2.WinForms.Guna2DataGridView()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Panel1.SuspendLayout()
-        CType(LoanTable, ComponentModel.ISupportInitialize).BeginInit()
         Guna2Panel2.SuspendLayout()
+        CType(LoanTable, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Panel1
@@ -68,76 +68,12 @@ Partial Class Loan
         Guna2Panel1.Size = New Size(1561, 884)
         Guna2Panel1.TabIndex = 4
         ' 
-        ' LoanTable
-        ' 
-        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(44), CByte(48), CByte(52))
-        LoanTable.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        LoanTable.BackgroundColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(15), CByte(16), CByte(18))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        LoanTable.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        LoanTable.ColumnHeadersHeight = 4
-        LoanTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(33), CByte(37), CByte(41))
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle3.ForeColor = Color.White
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(114), CByte(117), CByte(119))
-        DataGridViewCellStyle3.SelectionForeColor = Color.White
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        LoanTable.DefaultCellStyle = DataGridViewCellStyle3
-        LoanTable.GridColor = Color.FromArgb(CByte(50), CByte(56), CByte(62))
-        LoanTable.Location = New Point(24, 36)
-        LoanTable.Name = "LoanTable"
-        LoanTable.RowHeadersVisible = False
-        LoanTable.RowHeadersWidth = 62
-        LoanTable.Size = New Size(994, 823)
-        LoanTable.TabIndex = 0
-        LoanTable.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark
-        LoanTable.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(44), CByte(48), CByte(52))
-        LoanTable.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        LoanTable.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        LoanTable.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        LoanTable.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        LoanTable.ThemeStyle.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        LoanTable.ThemeStyle.GridColor = Color.FromArgb(CByte(50), CByte(56), CByte(62))
-        LoanTable.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(15), CByte(16), CByte(18))
-        LoanTable.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        LoanTable.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F)
-        LoanTable.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        LoanTable.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        LoanTable.ThemeStyle.HeaderStyle.Height = 4
-        LoanTable.ThemeStyle.ReadOnly = False
-        LoanTable.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(33), CByte(37), CByte(41))
-        LoanTable.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        LoanTable.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F)
-        LoanTable.ThemeStyle.RowsStyle.ForeColor = Color.White
-        LoanTable.ThemeStyle.RowsStyle.Height = 33
-        LoanTable.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(114), CByte(117), CByte(119))
-        LoanTable.ThemeStyle.RowsStyle.SelectionForeColor = Color.White
-        ' 
-        ' Guna2HtmlLabel1
-        ' 
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Font = New Font("Segoe UI", 11F)
-        Guna2HtmlLabel1.ForeColor = Color.White
-        Guna2HtmlLabel1.Location = New Point(49, 13)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(58, 32)
-        Guna2HtmlLabel1.TabIndex = 5
-        Guna2HtmlLabel1.Text = "Loans"
-        ' 
         ' Guna2Panel2
         ' 
         Guna2Panel2.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
         Guna2Panel2.Controls.Add(txtLoanTerm)
         Guna2Panel2.Controls.Add(Guna2HtmlLabel7)
-        Guna2Panel2.Controls.Add(btnApplyLoan)
+        Guna2Panel2.Controls.Add(btnSubmit)
         Guna2Panel2.Controls.Add(txtLoanAmount)
         Guna2Panel2.Controls.Add(Guna2HtmlLabel4)
         Guna2Panel2.Controls.Add(txtAccountNumber)
@@ -151,23 +87,59 @@ Partial Class Loan
         Guna2Panel2.Size = New Size(505, 823)
         Guna2Panel2.TabIndex = 2
         ' 
-        ' btnApplyLoan
+        ' txtLoanTerm
         ' 
-        btnApplyLoan.BorderRadius = 10
-        btnApplyLoan.CustomizableEdges = CustomizableEdges3
-        btnApplyLoan.DisabledState.BorderColor = Color.DarkGray
-        btnApplyLoan.DisabledState.CustomBorderColor = Color.DarkGray
-        btnApplyLoan.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnApplyLoan.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnApplyLoan.FillColor = Color.White
-        btnApplyLoan.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnApplyLoan.ForeColor = Color.Black
-        btnApplyLoan.Location = New Point(119, 594)
-        btnApplyLoan.Name = "btnApplyLoan"
-        btnApplyLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnApplyLoan.Size = New Size(267, 51)
-        btnApplyLoan.TabIndex = 6
-        btnApplyLoan.Text = "Confirm"
+        txtLoanTerm.BorderRadius = 10
+        txtLoanTerm.CustomizableEdges = CustomizableEdges1
+        txtLoanTerm.DefaultText = ""
+        txtLoanTerm.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtLoanTerm.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtLoanTerm.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtLoanTerm.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtLoanTerm.FillColor = Color.FromArgb(CByte(33), CByte(33), CByte(33))
+        txtLoanTerm.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtLoanTerm.Font = New Font("Segoe UI", 9F)
+        txtLoanTerm.ForeColor = Color.White
+        txtLoanTerm.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtLoanTerm.Location = New Point(31, 458)
+        txtLoanTerm.Margin = New Padding(4, 5, 4, 5)
+        txtLoanTerm.Name = "txtLoanTerm"
+        txtLoanTerm.PlaceholderForeColor = Color.DimGray
+        txtLoanTerm.PlaceholderText = "no. months"
+        txtLoanTerm.SelectedText = ""
+        txtLoanTerm.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtLoanTerm.Size = New Size(429, 51)
+        txtLoanTerm.TabIndex = 10
+        ' 
+        ' Guna2HtmlLabel7
+        ' 
+        Guna2HtmlLabel7.BackColor = Color.Transparent
+        Guna2HtmlLabel7.Font = New Font("Segoe UI", 12F)
+        Guna2HtmlLabel7.ForeColor = Color.White
+        Guna2HtmlLabel7.Location = New Point(31, 416)
+        Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
+        Guna2HtmlLabel7.Size = New Size(58, 34)
+        Guna2HtmlLabel7.TabIndex = 9
+        Guna2HtmlLabel7.Text = "Term"
+        Guna2HtmlLabel7.TextAlignment = ContentAlignment.MiddleCenter
+        ' 
+        ' btnSubmit
+        ' 
+        btnSubmit.BorderRadius = 10
+        btnSubmit.CustomizableEdges = CustomizableEdges3
+        btnSubmit.DisabledState.BorderColor = Color.DarkGray
+        btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSubmit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSubmit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSubmit.FillColor = Color.White
+        btnSubmit.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnSubmit.ForeColor = Color.Black
+        btnSubmit.Location = New Point(119, 594)
+        btnSubmit.Name = "btnSubmit"
+        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnSubmit.Size = New Size(267, 51)
+        btnSubmit.TabIndex = 6
+        btnSubmit.Text = "Confirm"
         ' 
         ' txtLoanAmount
         ' 
@@ -265,41 +237,69 @@ Partial Class Loan
         Guna2HtmlLabel8.Text = "Loan Form"
         Guna2HtmlLabel8.TextAlignment = ContentAlignment.MiddleCenter
         ' 
-        ' txtLoanTerm
+        ' LoanTable
         ' 
-        txtLoanTerm.BorderRadius = 10
-        txtLoanTerm.CustomizableEdges = CustomizableEdges1
-        txtLoanTerm.DefaultText = ""
-        txtLoanTerm.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtLoanTerm.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtLoanTerm.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtLoanTerm.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtLoanTerm.FillColor = Color.FromArgb(CByte(33), CByte(33), CByte(33))
-        txtLoanTerm.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtLoanTerm.Font = New Font("Segoe UI", 9F)
-        txtLoanTerm.ForeColor = Color.White
-        txtLoanTerm.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtLoanTerm.Location = New Point(31, 458)
-        txtLoanTerm.Margin = New Padding(4, 5, 4, 5)
-        txtLoanTerm.Name = "txtLoanTerm"
-        txtLoanTerm.PlaceholderForeColor = Color.DimGray
-        txtLoanTerm.PlaceholderText = "no. months"
-        txtLoanTerm.SelectedText = ""
-        txtLoanTerm.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtLoanTerm.Size = New Size(429, 51)
-        txtLoanTerm.TabIndex = 10
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(44), CByte(48), CByte(52))
+        LoanTable.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        LoanTable.BackgroundColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(15), CByte(16), CByte(18))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        LoanTable.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        LoanTable.ColumnHeadersHeight = 4
+        LoanTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(33), CByte(37), CByte(41))
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle3.ForeColor = Color.White
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(114), CByte(117), CByte(119))
+        DataGridViewCellStyle3.SelectionForeColor = Color.White
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        LoanTable.DefaultCellStyle = DataGridViewCellStyle3
+        LoanTable.GridColor = Color.FromArgb(CByte(50), CByte(56), CByte(62))
+        LoanTable.Location = New Point(24, 36)
+        LoanTable.Name = "LoanTable"
+        LoanTable.RowHeadersVisible = False
+        LoanTable.RowHeadersWidth = 62
+        LoanTable.Size = New Size(994, 823)
+        LoanTable.TabIndex = 0
+        LoanTable.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark
+        LoanTable.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(44), CByte(48), CByte(52))
+        LoanTable.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        LoanTable.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        LoanTable.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        LoanTable.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        LoanTable.ThemeStyle.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
+        LoanTable.ThemeStyle.GridColor = Color.FromArgb(CByte(50), CByte(56), CByte(62))
+        LoanTable.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(15), CByte(16), CByte(18))
+        LoanTable.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        LoanTable.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F)
+        LoanTable.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        LoanTable.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        LoanTable.ThemeStyle.HeaderStyle.Height = 4
+        LoanTable.ThemeStyle.ReadOnly = False
+        LoanTable.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(33), CByte(37), CByte(41))
+        LoanTable.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        LoanTable.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F)
+        LoanTable.ThemeStyle.RowsStyle.ForeColor = Color.White
+        LoanTable.ThemeStyle.RowsStyle.Height = 33
+        LoanTable.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(114), CByte(117), CByte(119))
+        LoanTable.ThemeStyle.RowsStyle.SelectionForeColor = Color.White
         ' 
-        ' Guna2HtmlLabel7
+        ' Guna2HtmlLabel1
         ' 
-        Guna2HtmlLabel7.BackColor = Color.Transparent
-        Guna2HtmlLabel7.Font = New Font("Segoe UI", 12F)
-        Guna2HtmlLabel7.ForeColor = Color.White
-        Guna2HtmlLabel7.Location = New Point(31, 416)
-        Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
-        Guna2HtmlLabel7.Size = New Size(58, 34)
-        Guna2HtmlLabel7.TabIndex = 9
-        Guna2HtmlLabel7.Text = "Term"
-        Guna2HtmlLabel7.TextAlignment = ContentAlignment.MiddleCenter
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Font = New Font("Segoe UI", 11F)
+        Guna2HtmlLabel1.ForeColor = Color.White
+        Guna2HtmlLabel1.Location = New Point(49, 13)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(58, 32)
+        Guna2HtmlLabel1.TabIndex = 5
+        Guna2HtmlLabel1.Text = "Loans"
         ' 
         ' Loan
         ' 
@@ -311,9 +311,9 @@ Partial Class Loan
         Name = "Loan"
         Size = New Size(1610, 957)
         Guna2Panel1.ResumeLayout(False)
-        CType(LoanTable, ComponentModel.ISupportInitialize).EndInit()
         Guna2Panel2.ResumeLayout(False)
         Guna2Panel2.PerformLayout()
+        CType(LoanTable, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -322,7 +322,7 @@ Partial Class Loan
     Friend WithEvents LoanTable As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents btnApplyLoan As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnSubmit As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents txtLoanAmount As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents txtAccountNumber As Guna.UI2.WinForms.Guna2TextBox

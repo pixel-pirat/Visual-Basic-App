@@ -5,7 +5,7 @@ Public Class Dashboard
 
 
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        InitDatabase()
+
         LoadUserControl(New Overview())
     End Sub
 
