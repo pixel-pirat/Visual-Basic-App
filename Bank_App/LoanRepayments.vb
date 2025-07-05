@@ -39,7 +39,7 @@ Public Class LoanRepayments
                 FROM loans l
                 LEFT JOIN loan_repayments r ON l.id = r.loan_id
                 INNER JOIN accounts a ON a.id = l.account_id
-                WHERE a.account_number = @accNum AND l.status = 'active'
+                WHERE a.account_number = @accNum AND l.status = 'pending'
                 GROUP BY l.id
                 LIMIT 1", conn)
             cmd.Parameters.AddWithValue("@accNum", accountNumber)

@@ -22,10 +22,8 @@ Partial Class Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -40,9 +38,14 @@ Partial Class Dashboard
         Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        LoanPay = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -63,6 +66,7 @@ Partial Class Dashboard
         ' 
         ' Guna2Panel1
         ' 
+        Guna2Panel1.Controls.Add(LoanPay)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel3)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel4)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
@@ -75,12 +79,34 @@ Partial Class Dashboard
         Guna2Panel1.Controls.Add(Guna2HtmlLabel2)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
         Guna2Panel1.Controls.Add(Guna2PictureBox1)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges37
+        Guna2Panel1.CustomizableEdges = CustomizableEdges41
         Guna2Panel1.Location = New Point(0, 0)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges42
         Guna2Panel1.Size = New Size(275, 1022)
         Guna2Panel1.TabIndex = 0
+        ' 
+        ' LoanPay
+        ' 
+        LoanPay.BorderRadius = 10
+        LoanPay.CustomizableEdges = CustomizableEdges23
+        LoanPay.DisabledState.BorderColor = Color.DarkGray
+        LoanPay.DisabledState.CustomBorderColor = Color.DarkGray
+        LoanPay.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        LoanPay.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        LoanPay.FillColor = Color.Transparent
+        LoanPay.Font = New Font("Segoe UI", 10F)
+        LoanPay.ForeColor = Color.White
+        LoanPay.Image = My.Resources.Resources.icons8_bank_building_50
+        LoanPay.ImageAlign = HorizontalAlignment.Left
+        LoanPay.ImageSize = New Size(25, 25)
+        LoanPay.Location = New Point(19, 334)
+        LoanPay.Name = "LoanPay"
+        LoanPay.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        LoanPay.Size = New Size(243, 33)
+        LoanPay.TabIndex = 12
+        LoanPay.Text = "Loan Payment"
+        LoanPay.TextAlign = HorizontalAlignment.Left
         ' 
         ' Guna2HtmlLabel3
         ' 
@@ -107,11 +133,11 @@ Partial Class Dashboard
         ' Guna2PictureBox2
         ' 
         Guna2PictureBox2.BorderRadius = 10
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges21
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges25
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(18, 962)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Guna2PictureBox2.Size = New Size(50, 50)
         Guna2PictureBox2.TabIndex = 9
         Guna2PictureBox2.TabStop = False
@@ -119,20 +145,20 @@ Partial Class Dashboard
         ' supportbtn
         ' 
         supportbtn.BorderRadius = 10
-        supportbtn.CustomizableEdges = CustomizableEdges23
+        supportbtn.CustomizableEdges = CustomizableEdges27
         supportbtn.DisabledState.BorderColor = Color.DarkGray
         supportbtn.DisabledState.CustomBorderColor = Color.DarkGray
         supportbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         supportbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         supportbtn.FillColor = Color.Transparent
-        supportbtn.Font = New Font("Segoe UI", 11.3F)
+        supportbtn.Font = New Font("Segoe UI", 10F)
         supportbtn.ForeColor = Color.White
         supportbtn.Image = My.Resources.Resources.icons8_support_501
         supportbtn.ImageAlign = HorizontalAlignment.Left
         supportbtn.ImageSize = New Size(25, 25)
         supportbtn.Location = New Point(19, 656)
         supportbtn.Name = "supportbtn"
-        supportbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        supportbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         supportbtn.Size = New Size(243, 33)
         supportbtn.TabIndex = 8
         supportbtn.Text = "Support"
@@ -141,20 +167,20 @@ Partial Class Dashboard
         ' settingbtn
         ' 
         settingbtn.BorderRadius = 10
-        settingbtn.CustomizableEdges = CustomizableEdges25
+        settingbtn.CustomizableEdges = CustomizableEdges29
         settingbtn.DisabledState.BorderColor = Color.DarkGray
         settingbtn.DisabledState.CustomBorderColor = Color.DarkGray
         settingbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         settingbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         settingbtn.FillColor = Color.Transparent
-        settingbtn.Font = New Font("Segoe UI", 11.3F)
+        settingbtn.Font = New Font("Segoe UI", 10F)
         settingbtn.ForeColor = Color.White
         settingbtn.Image = My.Resources.Resources.icons8_settings_64
         settingbtn.ImageAlign = HorizontalAlignment.Left
         settingbtn.ImageSize = New Size(25, 25)
         settingbtn.Location = New Point(19, 602)
         settingbtn.Name = "settingbtn"
-        settingbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        settingbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         settingbtn.Size = New Size(243, 33)
         settingbtn.TabIndex = 7
         settingbtn.Text = "Settings"
@@ -163,20 +189,20 @@ Partial Class Dashboard
         ' loanbtn
         ' 
         loanbtn.BorderRadius = 10
-        loanbtn.CustomizableEdges = CustomizableEdges27
+        loanbtn.CustomizableEdges = CustomizableEdges31
         loanbtn.DisabledState.BorderColor = Color.DarkGray
         loanbtn.DisabledState.CustomBorderColor = Color.DarkGray
         loanbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         loanbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         loanbtn.FillColor = Color.Transparent
-        loanbtn.Font = New Font("Segoe UI", 11.3F)
+        loanbtn.Font = New Font("Segoe UI", 10F)
         loanbtn.ForeColor = Color.White
         loanbtn.Image = My.Resources.Resources.icons8_bank_building_50
         loanbtn.ImageAlign = HorizontalAlignment.Left
         loanbtn.ImageSize = New Size(25, 25)
         loanbtn.Location = New Point(19, 276)
         loanbtn.Name = "loanbtn"
-        loanbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        loanbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         loanbtn.Size = New Size(243, 33)
         loanbtn.TabIndex = 6
         loanbtn.Text = "Loans"
@@ -185,20 +211,20 @@ Partial Class Dashboard
         ' transactionbtn
         ' 
         transactionbtn.BorderRadius = 10
-        transactionbtn.CustomizableEdges = CustomizableEdges29
+        transactionbtn.CustomizableEdges = CustomizableEdges33
         transactionbtn.DisabledState.BorderColor = Color.DarkGray
         transactionbtn.DisabledState.CustomBorderColor = Color.DarkGray
         transactionbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         transactionbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         transactionbtn.FillColor = Color.Transparent
-        transactionbtn.Font = New Font("Segoe UI", 11.3F)
+        transactionbtn.Font = New Font("Segoe UI", 10F)
         transactionbtn.ForeColor = Color.White
         transactionbtn.Image = My.Resources.Resources.icons8_transfer_50
         transactionbtn.ImageAlign = HorizontalAlignment.Left
         transactionbtn.ImageSize = New Size(25, 25)
         transactionbtn.Location = New Point(19, 222)
         transactionbtn.Name = "transactionbtn"
-        transactionbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        transactionbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         transactionbtn.Size = New Size(243, 33)
         transactionbtn.TabIndex = 5
         transactionbtn.Text = "Transactions"
@@ -207,20 +233,20 @@ Partial Class Dashboard
         ' accountbtn
         ' 
         accountbtn.BorderRadius = 10
-        accountbtn.CustomizableEdges = CustomizableEdges31
+        accountbtn.CustomizableEdges = CustomizableEdges35
         accountbtn.DisabledState.BorderColor = Color.DarkGray
         accountbtn.DisabledState.CustomBorderColor = Color.DarkGray
         accountbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         accountbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         accountbtn.FillColor = Color.Transparent
-        accountbtn.Font = New Font("Segoe UI", 11.3F)
+        accountbtn.Font = New Font("Segoe UI", 10F)
         accountbtn.ForeColor = Color.White
         accountbtn.Image = My.Resources.Resources.icons8_database_50
         accountbtn.ImageAlign = HorizontalAlignment.Left
         accountbtn.ImageSize = New Size(25, 25)
         accountbtn.Location = New Point(19, 168)
         accountbtn.Name = "accountbtn"
-        accountbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        accountbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         accountbtn.Size = New Size(243, 33)
         accountbtn.TabIndex = 4
         accountbtn.Text = "Accounts"
@@ -229,20 +255,20 @@ Partial Class Dashboard
         ' dashboardbtn
         ' 
         dashboardbtn.BorderRadius = 10
-        dashboardbtn.CustomizableEdges = CustomizableEdges33
+        dashboardbtn.CustomizableEdges = CustomizableEdges37
         dashboardbtn.DisabledState.BorderColor = Color.DarkGray
         dashboardbtn.DisabledState.CustomBorderColor = Color.DarkGray
         dashboardbtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         dashboardbtn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         dashboardbtn.FillColor = Color.Transparent
-        dashboardbtn.Font = New Font("Segoe UI", 11.3F)
+        dashboardbtn.Font = New Font("Segoe UI", 10F)
         dashboardbtn.ForeColor = Color.White
         dashboardbtn.Image = My.Resources.Resources.icons8_dashboard_24__1_
         dashboardbtn.ImageAlign = HorizontalAlignment.Left
         dashboardbtn.ImageSize = New Size(25, 25)
         dashboardbtn.Location = New Point(19, 114)
         dashboardbtn.Name = "dashboardbtn"
-        dashboardbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        dashboardbtn.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         dashboardbtn.Size = New Size(243, 33)
         dashboardbtn.TabIndex = 3
         dashboardbtn.Text = "Dashboard"
@@ -273,11 +299,11 @@ Partial Class Dashboard
         ' Guna2PictureBox1
         ' 
         Guna2PictureBox1.BorderRadius = 10
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges35
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges39
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(18, 15)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         Guna2PictureBox1.Size = New Size(50, 50)
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
@@ -287,10 +313,10 @@ Partial Class Dashboard
         MainPanel.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         MainPanel.BackColor = Color.FromArgb(CByte(10), CByte(10), CByte(10))
         MainPanel.BorderRadius = 30
-        MainPanel.CustomizableEdges = CustomizableEdges39
+        MainPanel.CustomizableEdges = CustomizableEdges43
         MainPanel.Location = New Point(284, 60)
         MainPanel.Name = "MainPanel"
-        MainPanel.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        MainPanel.ShadowDecoration.CustomizableEdges = CustomizableEdges44
         MainPanel.Size = New Size(1610, 957)
         MainPanel.TabIndex = 1
         ' 
@@ -326,4 +352,5 @@ Partial Class Dashboard
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents MainPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents LoanPay As Guna.UI2.WinForms.Guna2Button
 End Class

@@ -25,7 +25,7 @@ Public Class Dashboard
         LoadUserControl(New Transactions())
     End Sub
     Private Sub loanbtn_Click(sender As Object, e As EventArgs) Handles loanbtn.Click
-        LoadUserControl(New Loan())
+        LoadUserControl(New Loan)
     End Sub
 
     Private Sub settingbtn_Click(sender As Object, e As EventArgs) Handles settingbtn.Click
@@ -34,6 +34,10 @@ Public Class Dashboard
 
     Private Sub supportbtn_Click(sender As Object, e As EventArgs) Handles supportbtn.Click
 
+    End Sub
+
+    Private Sub LoanPay_click(sender As Object, e As EventArgs) Handles LoanPay.Click
+        LoadUserControl(New LoanRepayments())
     End Sub
 
 End Class
