@@ -22,21 +22,21 @@ Partial Class Loan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         txtLoanTerm = New Guna.UI2.WinForms.Guna2TextBox()
@@ -61,10 +61,10 @@ Partial Class Loan
         Guna2Panel1.BorderRadius = 20
         Guna2Panel1.Controls.Add(Guna2Panel2)
         Guna2Panel1.Controls.Add(LoanTable)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges11
+        Guna2Panel1.CustomizableEdges = CustomizableEdges23
         Guna2Panel1.Location = New Point(25, 48)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Guna2Panel1.Size = New Size(1561, 884)
         Guna2Panel1.TabIndex = 4
         ' 
@@ -80,17 +80,17 @@ Partial Class Loan
         Guna2Panel2.Controls.Add(Guna2HtmlLabel3)
         Guna2Panel2.Controls.Add(Guna2HtmlLabel2)
         Guna2Panel2.Controls.Add(Guna2HtmlLabel8)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges9
+        Guna2Panel2.CustomizableEdges = CustomizableEdges21
         Guna2Panel2.Location = New Point(1037, 36)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2Panel2.Size = New Size(505, 823)
         Guna2Panel2.TabIndex = 2
         ' 
         ' txtLoanTerm
         ' 
         txtLoanTerm.BorderRadius = 10
-        txtLoanTerm.CustomizableEdges = CustomizableEdges1
+        txtLoanTerm.CustomizableEdges = CustomizableEdges13
         txtLoanTerm.DefaultText = ""
         txtLoanTerm.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtLoanTerm.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -107,7 +107,7 @@ Partial Class Loan
         txtLoanTerm.PlaceholderForeColor = Color.DimGray
         txtLoanTerm.PlaceholderText = "no. months"
         txtLoanTerm.SelectedText = ""
-        txtLoanTerm.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtLoanTerm.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtLoanTerm.Size = New Size(429, 51)
         txtLoanTerm.TabIndex = 10
         ' 
@@ -126,7 +126,7 @@ Partial Class Loan
         ' btnSubmit
         ' 
         btnSubmit.BorderRadius = 10
-        btnSubmit.CustomizableEdges = CustomizableEdges3
+        btnSubmit.CustomizableEdges = CustomizableEdges15
         btnSubmit.DisabledState.BorderColor = Color.DarkGray
         btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray
         btnSubmit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -136,7 +136,7 @@ Partial Class Loan
         btnSubmit.ForeColor = Color.Black
         btnSubmit.Location = New Point(119, 594)
         btnSubmit.Name = "btnSubmit"
-        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         btnSubmit.Size = New Size(267, 51)
         btnSubmit.TabIndex = 6
         btnSubmit.Text = "Confirm"
@@ -144,7 +144,7 @@ Partial Class Loan
         ' txtLoanAmount
         ' 
         txtLoanAmount.BorderRadius = 10
-        txtLoanAmount.CustomizableEdges = CustomizableEdges5
+        txtLoanAmount.CustomizableEdges = CustomizableEdges17
         txtLoanAmount.DefaultText = ""
         txtLoanAmount.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtLoanAmount.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -161,7 +161,7 @@ Partial Class Loan
         txtLoanAmount.PlaceholderForeColor = Color.DimGray
         txtLoanAmount.PlaceholderText = "0.00"
         txtLoanAmount.SelectedText = ""
-        txtLoanAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtLoanAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         txtLoanAmount.Size = New Size(429, 51)
         txtLoanAmount.TabIndex = 5
         ' 
@@ -180,7 +180,7 @@ Partial Class Loan
         ' txtAccountNumber
         ' 
         txtAccountNumber.BorderRadius = 10
-        txtAccountNumber.CustomizableEdges = CustomizableEdges7
+        txtAccountNumber.CustomizableEdges = CustomizableEdges19
         txtAccountNumber.DefaultText = ""
         txtAccountNumber.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtAccountNumber.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -197,7 +197,7 @@ Partial Class Loan
         txtAccountNumber.PlaceholderForeColor = Color.DimGray
         txtAccountNumber.PlaceholderText = "1024XXXXXXXXX"
         txtAccountNumber.SelectedText = ""
-        txtAccountNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtAccountNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         txtAccountNumber.Size = New Size(429, 51)
         txtAccountNumber.TabIndex = 3
         ' 
@@ -239,27 +239,27 @@ Partial Class Loan
         ' 
         ' LoanTable
         ' 
-        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(44), CByte(48), CByte(52))
-        LoanTable.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle4.BackColor = Color.FromArgb(CByte(44), CByte(48), CByte(52))
+        LoanTable.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
         LoanTable.BackgroundColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(15), CByte(16), CByte(18))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        LoanTable.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(15), CByte(16), CByte(18))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
+        LoanTable.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         LoanTable.ColumnHeadersHeight = 4
         LoanTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(33), CByte(37), CByte(41))
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle3.ForeColor = Color.White
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(114), CByte(117), CByte(119))
-        DataGridViewCellStyle3.SelectionForeColor = Color.White
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        LoanTable.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.FromArgb(CByte(33), CByte(37), CByte(41))
+        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle6.ForeColor = Color.White
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(114), CByte(117), CByte(119))
+        DataGridViewCellStyle6.SelectionForeColor = Color.White
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
+        LoanTable.DefaultCellStyle = DataGridViewCellStyle6
         LoanTable.GridColor = Color.FromArgb(CByte(50), CByte(56), CByte(62))
         LoanTable.Location = New Point(24, 36)
         LoanTable.Name = "LoanTable"
