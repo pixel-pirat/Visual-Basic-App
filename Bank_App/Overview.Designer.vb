@@ -68,7 +68,6 @@ Partial Class Overview
         Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblLoans = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel9 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        GunaSplineAreaDataset1 = New Guna.Charts.WinForms.GunaSplineAreaDataset()
         chartAccounts = New Guna.Charts.WinForms.GunaChart()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
@@ -294,12 +293,6 @@ Partial Class Overview
         Guna2HtmlLabel9.TabIndex = 0
         Guna2HtmlLabel9.Text = "Loans"
         ' 
-        ' GunaSplineAreaDataset1
-        ' 
-        GunaSplineAreaDataset1.BorderColor = Color.Empty
-        GunaSplineAreaDataset1.FillColor = Color.Empty
-        GunaSplineAreaDataset1.Label = "SplineArea1"
-        ' 
         ' chartAccounts
         ' 
         chartAccounts.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(23))
@@ -437,7 +430,6 @@ Partial Class Overview
     Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblLoans As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents GunaSplineAreaDataset1 As Guna.Charts.WinForms.GunaSplineAreaDataset
     Friend WithEvents chartAccounts As Guna.Charts.WinForms.GunaChart
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
